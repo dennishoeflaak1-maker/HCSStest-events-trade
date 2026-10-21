@@ -82,12 +82,14 @@ partners**, before an escalation makes that dependency costly.
 ```
    Without a `.env` file the notebook asks for the key when it starts. Press Enter to
    skip it; the notebook then retrieves at most 250 events per request.
+   
 3. Open the notebook and run all cells:
 ```bash
    jupyter notebook analysis.ipynb
 ```
    The notebook imports `data_events.py` and `data_trading.py` from the same folder,
    so keep all files together and run the notebook from the repository root.
+   
 4. Change the period, countries or product in the **Settings** cell.
 
 
